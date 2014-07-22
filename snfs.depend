@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1405830357 source:/home/parth/projects/snfs/main.cpp
+	<iostream>
+
+1405706209 source:/home/parth/projects/snfs/src/address.cpp
+	"address.h"
+
+1405762880 /home/parth/projects/snfs/include/address.h
+	"common.h"
+
+1405752934 /home/parth/projects/snfs/include/snfs.h
+	<stdint.h>
+	"address.h"
+	"indirection.h"
+	"iNode.h"
+	"link.h"
+
+1405774393 /home/parth/projects/snfs/include/indirection.h
+	"common.h"
+
+1405755192 /home/parth/projects/snfs/include/iNode.h
+	"common.h"
+
+1405754335 /home/parth/projects/snfs/include/link.h
+	"common.h"
+
+1405751962 source:/home/parth/projects/snfs/src/indirection.cpp
+	"indirection.h"
+
+1405755284 source:/home/parth/projects/snfs/src/iNode.cpp
+	"iNode.h"
+
+1405747482 source:/home/parth/projects/snfs/src/link.cpp
+	"link.h"
+
+1405951830 /home/parth/projects/snfs/include/common.h
+	<unistd.h>
+	"diskStruct.h"
+	"diskManager.h"
+
+1405765249 /home/parth/projects/snfs/include/diskStruct.h
+	"lock.h"
+
+1405773039 source:/home/parth/projects/snfs/src/diskStruct.cpp
+	"diskStruct.h"
+
+1405756134 source:/home/parth/projects/snfs/src/block.cpp
+	"block.h"
+
+1405756373 /home/parth/projects/snfs/include/block.h
+	"common.h"
+
+1405772891 /home/parth/projects/snfs/include/lock.h
+	<stdint.h>
+
+1405776540 source:/home/parth/projects/snfs/src/file.cpp
+	"file.h"
+
+1405883718 /home/parth/projects/snfs/include/file.h
+	"common.h"
+
+1405883180 source:/home/parth/projects/snfs/src/freeBlockManager.cpp
+	"freeBlockManager.h"
+
+1405883436 /home/parth/projects/snfs/include/freeBlockManager.h
+	"common.h"
+	"freeBlock.h"
+
+1405773100 source:/home/parth/projects/snfs/src/lock.cpp
+	"lock.h"
+
+1405883584 source:/home/parth/projects/snfs/src/blockManager.cpp
+	"blockManager.h"
+	"block.h"
+	"indirection.h"
+	"file.h"
+	"lock.h"
+
+1405885602 /home/parth/projects/snfs/include/blockManager.h
+	"common.h"
+	<pthread.h>
+	<sparsehash/internal/sparseconfig.h>
+	<sparsehash/dense_hash_map>
+	<sparsehash/template_util.h>
+	<sparsehash/type_traits.h>
+	<map>
+
+1405884407 source:/home/parth/projects/snfs/src/freeBlock.cpp
+	"freeBlock.h"
+
+1405883840 /home/parth/projects/snfs/include/freeBlock.h
+	"common.h"
+	"blockManager.h"
+
+1405951470 /home/parth/projects/snfs/include/diskManager.h
+
